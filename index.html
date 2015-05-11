@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="bootstrap.min.css">
+<link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
+
+    <link href="test.css" rel="stylesheet">
+    <link href='http://fonts.googleapis.com/css?family=Yanone+Kaffeesatz' rel='stylesheet' type='text/css'>
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+      <script>
+        $(document).ready(function () {
+          $('a[href*=#]').click(function(e) {
+              e.preventDefault();
+              var target;
+              if(($(this).attr("href"))==="#")
+                  target = $("#home");
+              else
+                  target = $(this.hash);
+              target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+              
+              $('html,body').animate({
+                   scrollTop: (target.offset().top) - 50
+              }, 1000, 'swing');
+          });
+        });
+      </script>
+</head>
+    
+<body>
+    
+    <div class="navbar navbar-default navbar-fixed-top">
+    <div class="container">
+        <ul>
+            <li><a href="#ABOUT">ABOUT</a></li>
+            <li><a href="#EXPERIENCE">EXPERIENCE</a></li>
+            <li><a href="#education">EDUCATION</a></li>
+            <li><a href="#contact">CONTACT</a></li>
+        </ul>
+    </div>
+    </div>
+    
+<div class="jumbotron">
+    <h1>Leslie Anne Sy</h1>
+    <h2>A music enthusiast, full-time puppy lover, and an aspiring web developer
+    <br>in NYC</h2>
+    <h3></h3>
+    </div>
+    
+<div id="ABOUT" class="ABOUT">
+    <div class="container">
+<h3>
+Leslie here! I'm a 20 year old student studying Computer Science and Communications at Fordham University with a special interest in social media, tech, and web development. I reside in New York and sometimes Las Vegas. This site was made to showcase my abilities and what I can do. I am excited to see what growth I will accomplish in the future. </h3>
+</div>
+</div>
+
+<div id="EXPERIENCE" class="EXPERIENCE">
+    <div class="container">
+        <h2>EXPERIENCE</h2>
+        <div class="row-fluid">
+            <div class="span6"> 
+            <h3>Hackathons
+                </h3>
+            <h4> My first hackathon was HackNY (March 2015) in which I had a first look at the type of creative work I want to dive myself into.
+                <br>
+                Attended Bitcamp (April 2015) at the University of Maryland and created this webpage. </h4></div>
+  <div class="span6"> 
+<h3> Projects</h3>
+   <h3>leslieasy.me</h3>
+    <h4>This website that you're looking at is my first project that's truly my own! I used HTML, CSS, and JS to create this during Bitcamp (April 2015). It's completely open-source and completely made by me. Awesome, right?</h4>
+      </div>        
+        </div></div></div>
+    
+<div id="education" class="EDUCATION">
+    <div class="container">
+    <h2>EDUCATION</h2>
+        <div class="row">
+            <div class="span6">
+    <h3>Current sophomore at Fordham University in Bronx, NY.
+    Working towards a B.S. degree in computer science with a minor in communications. Class of 2017. 
+    </h3>
+                </div>
+    <div class="span6">
+        <h3>Skills</h3>
+        <h4>Languages such as HTML/CSS, C++, Python, JavaScript. Uses Github, Brackets, Sublime Text, Microsoft Office, Google Apps. Digital media, writing, editing, online journalism, social media and networking, web development.</h4></div>
+         <div class="span6">
+        <h3>Relevant Coursework</h3>
+             <h4>CISC 4020 Bioinformatics
+             <br>
+                 CISC 4615 Data Comm and Networks</h4>
+            </ul></div>
+        <div class="span6">
+            <h3>Extracurriculars</h3>
+            <h4>Fordham University Philippine-American Club Treasurer, HerCampus Fordham Chapter Section Editor, Computing Sciences Society, React to Film, FLASH Magazine</h4>
+            </div>
+        </div>
+    </div>
+</div>
+
+ <div id="contact">
+                <a href="http://twitter.com/lesliesy">
+                    <i class="fa fa-twitter"></i>
+                    <span>Twitter</span>
+                </a>
+                <a href="http://linkedin.com/in/leslieasy">
+                    <i class="fa fa-linkedin"></i>
+                    <span>LinkedIn</span>
+                </a>
+                <a href="http://github.com/leslieasy">
+                    <i class="fa fa-github"></i>
+                    <span>GitHub</span>
+                </a>
+                <a href="mailto:#">
+                    <i class="fa fa-envelope"></i>
+                    <span>lsy@fordham.edu</span>
+                </a>
+            </div>
+</body>
+    
+<div id="footer">
+            <h4>&copy; Leslie Sy 2015</h4>
+</div>
+</html>

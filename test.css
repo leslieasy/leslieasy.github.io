@@ -1,0 +1,153 @@
+body {
+    color: black;
+    font-family: sans-serif;
+    text-align: center;
+}
+.navbar a {
+    color:#5a5a5a;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 10px 70px;
+    text-transform: uppercase;
+}
+
+.navbar {
+	padding-top: 10px;
+	background-color: white;
+}
+
+.navbar li {
+	display: inline;
+}
+
+.jumbotron {
+    display: block;
+    height: 770px;
+    background-image: url("https://40.media.tumblr.com/9d9087777e8650829f50f24306faf068/tumblr_nnjt23P8h61qzcfkgo1_1280.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.jumbotron h1 {
+    color:whitesmoke;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    padding-top: 350px;
+    text-align: center;
+    font-size: 65px;
+    font-weight: bold;
+}
+.jumbotron h2{
+    padding-top: 15px;
+    color: whitesmoke;
+    text-align: center;
+    font-size: 20px;
+}
+.jumbotron h3{
+    color:whitesmoke;
+    font-size: 15px;
+}
+
+.ABOUT h3 {
+    color: black;
+    font-size:15px;
+    padding: 10px 30px;
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+.EXPERIENCE{
+    position:relative;
+    top:0px;
+    left:0px;
+    bottom:0px;
+    right:0px;
+    background-color:lightslategrey;
+}
+.EXPERIENCE h2 {
+    color: whitesmoke;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-size:50px;
+    padding: 10px 50px;
+    padding-bottom: 30px;
+    padding-top: 50px;
+}
+.EXPERIENCE h3 {
+    color: whitesmoke;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-size:30px;
+    padding: 10px 50px;
+}
+.EXPERIENCE h4 {
+    color: whitesmoke;
+    font-size:13px;
+    padding:10px;
+    padding-bottom: 50px;
+}
+.EDUCATION h2{
+    color:black;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    padding: 10px 50px;
+    font-size:50px;
+    padding-top: 50px;
+    padding-bottom: 30px;
+}
+.EDUCATION h3{
+    color: black;
+    font-size:15px;
+    padding-bottom: 10px;
+}
+.EDUCATION h4{
+    color: black;
+    font-size:13px;
+    padding-bottom: 10px;
+}
+
+.contact .icon {
+    color: white;
+    min-width: 45px;
+    line-height: 45px;
+    text-align: center;
+    text-shadow: 1px 1px 1px rgba(128, 128, 128, 0.5);
+}
+
+#contact a {
+    margin-right: 50px;
+    padding: 12px; /* Increase hit rectangle for touch devices */
+}
+#contact .icon-rss {
+    background: #e5842f;
+}
+
+#contact .icon-linkedin {
+    background: #3B5998;
+}
+
+#contact .icon-twitter {
+    background: #00ACED;
+}
+
+.contact .icon-github {
+    background: #E14107;
+}
+#contact a:hover {
+    text-decoration: none;
+}
+
+#contact a:hover span {
+    text-decoration: underline;
+    color: #333333; /* Match icon highlight color */
+}
+
+#contact a .icon {
+   transition: background 0.5s;
+}
+
+#contact a:hover .icon {
+    background: #333333;
+    transition: background 0.5s;
+}
+footer h4{
+    padding-top: 20px;
+    color: black;
+    font-family: sans-serif;
+    font-size: 10px;
+}
